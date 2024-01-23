@@ -35,4 +35,5 @@ a {
   margin: 0 80px;
   justify-content: space-between;
   align-items: center;
+  max-width: 1920px;
 }
