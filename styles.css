@@ -11,6 +11,8 @@ html {
 body {
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
@@ -36,4 +38,18 @@ a {
   justify-content: space-between;
   align-items: center;
   max-width: 1920px;
+  align-self: center;
+}
+
+h1 {
+  font-size: calc(1rem + 1vw);
+}
+
+.grow {
+  height: 100%;
+  width: 100%;
+}
+
+.main-top img {
+  min-width: 800px;
 }
