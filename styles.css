@@ -13,6 +13,7 @@ body {
   padding: 0;
   display: flex;
   flex-direction: column;
+  height: 100vh;
 }
 
 .header {
@@ -52,4 +53,21 @@ h1 {
 
 .main-top img {
   min-width: 800px;
+}
+
+.accessories {
+  display: flex;
+  margin: 0 80px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+.accessories div {
+  max-width: 300px;
+  flex: 1 1 200px;
+}
+
+.accessories img {
+  height: auto;
 }
