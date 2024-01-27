@@ -47,3 +47,19 @@ ul {
   align-items: center;
   gap: 20px;
 }
+
+.hero-container {
+  display: flex;
+  margin: auto;
+  padding: 0 40px;
+}
+
+.hero-text-container {
+  flex: 1;
+}
+
+.hero-image-container {
+  display: flex;
+  flex: 2;
+  justify-content: center;
+}
