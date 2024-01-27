@@ -52,6 +52,7 @@ ul {
   display: flex;
   margin: 0 auto;
   padding: 0 40px;
+  flex: 1;
 }
 
 .hero-text-container {
@@ -75,6 +76,10 @@ ul {
 }
 
 .accessories-container {
+  flex: 1;
+}
+
+.accessories-item-container {
   display: flex;
   margin: 0 auto;
   padding: 0 40px;
