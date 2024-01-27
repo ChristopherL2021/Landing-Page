@@ -52,7 +52,7 @@ ul {
   display: flex;
   margin: 0 auto;
   padding: 0 40px;
-  flex: 1;
+  flex: 2;
 }
 
 .hero-text-container {
@@ -76,7 +76,7 @@ ul {
 }
 
 .accessories-container {
-  flex: 1;
+  flex: 2;
 }
 
 .accessories-item-container {
@@ -86,4 +86,43 @@ ul {
   gap: 20px;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.sign-up-container-background {
+  display: flex;
+  align-items: center;
+  background-color: #006fcd;
+  justify-content: center;
+  flex: 1;
+  padding: 0 40px;
+}
+
+.sign-up-container {
+  display: flex;
+  align-items: center;
+  width: 600px;
+}
+
+.sign-up-button {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.sign-up-text {
+  flex: 2;
+  color: white;
+}
+
+.sign-up-button {
+  flex: 1;
+}
+
+.sign-up-button button {
+  background-color: white;
+  padding: 8px 14px;
+  border-radius: 40px;
+  font-weight: 900;
+  font-size: 1.2em;
+  border: none;
 }
