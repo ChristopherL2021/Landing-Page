@@ -123,8 +123,8 @@ ul {
   background-color: white;
   padding: 6px 14px;
   border-radius: 40px;
-  font-weight: 900;
-  font-size: 1.1em;
+  font-weight: 500;
+  font-size: 0.9em;
   border: none;
 }
 
@@ -162,4 +162,8 @@ ul {
 
 .buy-now:hover {
   background-color: #ea5000;
+}
+
+.sign-up-button button:hover {
+  background-color: #cccccc;
 }
