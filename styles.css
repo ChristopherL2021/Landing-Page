@@ -171,3 +171,11 @@ ul {
 .footer a:hover {
   color: #003fcd;
 }
+
+li a {
+  color: black;
+}
+
+li a:hover {
+  color: #006fcd;
+}
