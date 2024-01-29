@@ -135,3 +135,31 @@ ul {
 .footer a {
   color: #ea8000;
 }
+
+.find-out-more {
+  background-color: #006fcd;
+  border: none;
+  color: white;
+  border-radius: 40px;
+  font-weight: 500;
+  font-size: 0.9em;
+  padding: 6px 14px;
+}
+
+.buy-now {
+  background-color: #ea8000;
+  border: none;
+  color: white;
+  border-radius: 40px;
+  font-weight: 500;
+  font-size: 0.9em;
+  padding: 6px 14px;
+}
+
+.find-out-more:hover {
+  background-color: #003fcd;
+}
+
+.buy-now:hover {
+  background-color: #ea5000;
+}
