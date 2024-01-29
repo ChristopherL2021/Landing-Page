@@ -127,3 +127,11 @@ ul {
   font-size: 1.1em;
   border: none;
 }
+
+.footer {
+  padding: 0 40px;
+}
+
+.footer a {
+  color: #ea8000;
+}
